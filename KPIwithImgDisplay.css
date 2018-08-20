@@ -1,0 +1,190 @@
+/* CSS */
+/* CSS */
+		/**
+		* set padding to make room for bootstrap menu
+		*
+		*/
+		body {
+			padding-bottom: 30px;
+		}
+
+		/*
+		* need to set the height for objects
+		* set top padding to make room for selection toolbar
+		*/
+/* Modifying Qlik Sense CSS*/
+.qv-object-text-image .qv-media-tool-html {
+    font-size: 10px;
+    line-height: 1.4;
+}
+
+/****************************/
+		div.qvobject, div.qvplaceholder {
+			padding: 30px 10px 10px 10px;
+			height: 400px;
+		}
+
+		.qcmd {
+			cursor: pointer;
+		}
+
+		#popup {
+			background-color: #7f8c8d;
+			color: #FFFFFF;
+			position: fixed;
+			padding: 10px;
+			margin: 10px;
+			bottom: 0;
+			right: 0;
+			display: none;
+			border-radius: 5px;
+		}
+
+		/*
+		 * Overrides Bootstrap navbar z-index to avoid conflict with selections bar
+		 */
+		.navbar-fixed-top {
+			position: relative;
+			z-index: 100;
+		}
+		
+/*		
+		.flip {
+			height: 199px;
+			width: 300px;
+			margin: auto;
+		}
+		.flip img {
+			width: 70%;
+			height: auto;
+		}
+		.flip .back {
+			background: #2184cd;
+			color: #fff;
+			text-align: center;
+			padding-top:20px;
+		}
+		
+		.flip .back a {
+			text-decoration:none;
+			margin-top:20px;
+			color : #fff;
+			font-size : 20px;
+			padding : 2px 5px;
+			border : 2px solid white;
+			border-radius : 22px;
+		}
+		
+		.flip .back a:hover {
+			background : orange;
+			border : 2px solid orange;
+			transition: background 0.5s; 
+		}
+		
+		.kpi-container {
+			border-right : 1px solid lightgray;
+			margin:auto;
+		}
+*/		
+		/*#ppod-marcus-kpi img*/
+		.kpi-img {
+			display : block;
+			margin : auto;
+			padding: 20px 5%;
+			width: 60%;
+			height: auto;
+		}
+		
+		.kpi-none {
+			display : none;
+		}
+		
+		.kpi-text {
+			margin :auto;
+			font-size : 60px;
+			text-align :center
+		}
+		
+		.kpi-header{
+			font-size : 35px;
+			/*border-bottom : 3px solid lightgreen;*/
+			text-align : center;
+		}
+		
+		.kpi-sub-header{
+			height: 20px;
+			font-size : 10px !important;
+			border-bottom : 3px solid lightgreen;
+			text-align : center;
+		}
+		
+		.red-border {
+			border-bottom : 3px solid red;
+		}
+		
+		.kpi-segment {
+			padding:0;
+			overflow:hidden;
+			height : auto;
+			/*border-right : 1px solid lightgray;*/
+			text-align : center
+		}
+		
+		.kpi-last-segment{
+			border : none;
+		}
+		
+		.kpi-segment span {
+			font-size : 20px;
+			
+		}
+		
+		.kpi-detail{
+			background : #a5b1c2;
+			height:400px
+		}
+		
+		.hide-detail {
+			display:none;
+		}
+
+		.show-detail {
+			display:block;
+		}
+		
+		.kpi-clicked{
+			background : #a5b1c2;
+		}
+
+/*************************************************************************************************/
+		.kpi-header-v2{
+			font-size : 25px !important;
+			color:white;
+		}
+
+		.kpi-sub-header-v2 {
+			font-size : 15px !important;
+			text-align : left;
+			color:white;
+		}
+		
+		.kpi-img-v2 {
+			display : block;
+			margin : auto;
+			padding: 5px 5%;
+			width: 60px;
+			height: auto;
+		}
+		
+		
+		.kpi-segment-v2 {
+			padding:8px 0px;
+			overflow:hidden;
+			height : auto;
+			/*border-right : 1px solid lightgray;*/
+			text-align : center
+		}
+		.kpi-segment-v2 span {
+			font-size : 20px;
+			
+		}
