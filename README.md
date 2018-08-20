@@ -9,3 +9,4 @@ I have tried my best to follow best practice and coding technics. Please suggest
 
 Extension is not using any third party library. It is completly made up of, html, css and javascript.
 
+![KPIwithImgDisplay](img/Extension.PNG)
