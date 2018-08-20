@@ -3,4 +3,9 @@ My first extension from scratch. there are many kpi extensions availbale but wan
 
 Please feel free to reach out to me for any issue or usage of the extension.
 
+Currently working and learning to add more features into extension.
+
+I have tried my best to follow best practice and coding technics. Please suggest if there are any better way to achieve same.
+
+Extension is not using any third party library. It is completly made up of, html, css and javascript.
 
